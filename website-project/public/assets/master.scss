@@ -1,0 +1,33 @@
+//DECLARE SASS VARIABLES
+$main-color-1: #39f;
+$main-color-2: #8df;
+
+$light-theme-primary: #ddf;
+$light-theme-secondary: #9ad7eb;
+$light-theme-tertiary: #3790ac;
+
+$dark-theme-primary: #333;
+$dark-theme-secondary: #666;
+$dark-theme-tertiary: #33a;
+$main-body-text: 2vw calibri;
+
+body {
+  color: $light-theme-secondary;
+  background-color: $light-theme-primary;
+  font-size: 2vw;
+}
+
+body.dark {
+  color: $dark-theme-secondary;
+  background-color: $dark-theme-primary;
+} 
+
+#navbar-wrapper {
+  background-color: $light-theme-tertiary;
+  color: $light-theme-secondary;
+}
+
+#navbar-wrapper.dark {
+  background-color: $dark-theme-tertiary;
+  color: $dark-theme-secondary;
+}

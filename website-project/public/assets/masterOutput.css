@@ -1,0 +1,22 @@
+body {
+  color: #9ad7eb;
+  background-color: #ddf;
+  font-size: 2vw;
+}
+
+body.dark {
+  color: #666;
+  background-color: #333;
+}
+
+#navbar-wrapper {
+  background-color: #3790ac;
+  color: #9ad7eb;
+}
+
+#navbar-wrapper.dark {
+  background-color: #33a;
+  color: #666;
+}
+
+/*# sourceMappingURL=masterOutput.css.map */

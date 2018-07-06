@@ -1,0 +1,21 @@
+{
+  "name": "website-project",
+  "version": "1.0.0",
+  "description": "A website project made for learning new things and showing my skills",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Glenn Hamilton-Smith",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.0",
+    "eslint-plugin-react": "^7.10.0"
+  }
+}
